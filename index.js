@@ -114,5 +114,5 @@ app.listen(PORT, async () => {
     console.log("Connection to DB failed");
     console.log(error);
   }
-  console.log("listening on PORT 8000");
+  console.log(`listening on PORT ${PORT}`);
 });
